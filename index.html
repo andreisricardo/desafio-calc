@@ -7,10 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora Spider</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/toggle_button.css">
 
 </head>
 
 <body>
+
+    <header>
+        <nav>
+          <ul class="menu">
+            <li>
+              <label class="switch">
+                <input type="checkbox" id="botaoTema">
+                <span class="slider round"></span>
+              </label>
+            </li>
+          </ul>
+        </nav>
+      </header>
+        
     <div id="calc">
         <h3>Calculadora Spider</h3>
 
@@ -43,6 +58,7 @@
     </div>
 
     <script src="./js/script.js"></script>
+    <script src="./js/alteratema.js"></script>
 </body>
 
 </html>
