@@ -66,6 +66,10 @@
     background-color: #061c47;
 }
 
+nav ul li {
+    list-style: none;
+}
+
 .switch {
     position: relative;
     display: inline-block;
